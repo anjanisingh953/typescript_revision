@@ -7,3 +7,4 @@ var oct = 0x00001;
 var item = Number("200");
 console.log(oct + 10);
 console.log(oct + item);
+//# sourceMappingURL=number.js.map

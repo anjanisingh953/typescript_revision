@@ -1,6 +1,13 @@
 "use strict";
 var username = 'Mike watson';
 var age = 65;
+//undefined : we use undefined when we want to assign any type of value dynamically
+var userName = undefined;
+//bigint
+var bigNumber = 9007199254740991n;
+var x = 1n;
+var y = 7n;
+console.log(bigNumber + x);
 //array type
 var numArray = [10, 20, 30, 40, 50, 60];
 console.log(numArray);
@@ -45,3 +52,4 @@ direction = 'up'; //ok
 //function type : define the type of a function
 let add;
 add = (x, y) => x + y;
+//# sourceMappingURL=app.js.map
