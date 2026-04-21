@@ -9,8 +9,9 @@ class Product{
     name:string;
     protected price : number;
     pId : number;
-    static inCart : boolean = false;
+    inCart : boolean = false;
     isOrdered : boolean = false;
+    static isActive: true
     constructor( name:string, price: number, pId: number ){
         this.name = name;
         this.price = price;
@@ -34,7 +35,7 @@ class Product{
 var product = new Product('Iphone17',154000,123)
 product.addToCart()
 console.log(product.buyProduct())
-console.log(Product.inCart); //inCart has public access modifier
+console.log(Product.isActive); //isActive is static property which can be directly call on ClassName
 
 var product = new Product('Samsung Galaxy',65000,124)
 product.addToCart()
