@@ -1,3 +1,6 @@
+//An index signature in Typescript allows us to define objects with dynamic keys while specifying 
+//the type of their values
+
 //Earlier what we do
     // type userData7Type ={
     //     id:number,
@@ -14,7 +17,7 @@
     //     [key:string]: string|number
     // }
 
-// make readonly object property and can not add extra object property through objectName.key='anyValue'
+// Make object property readonly (freeze the object) and now we can not add extra object property through objectName.key='anyValue'
 // It means we have to define all object properties while creating an object, after object creation we can not add any object property
 type userData7Type ={
     id:number,
