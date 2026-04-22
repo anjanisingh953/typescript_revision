@@ -4,6 +4,7 @@
 //private properties & methods can be access only inside the current class but not outside the class
 //protected properties & methods can be access only inside the current class and its child classes but not outside the class
 //we use static keyword for any property or methods then it can be directly access by class Name without creating an instance
+//we can not call static property, followed by instance and can not use in any method of a class 
 class Product {
     name;
     price;
