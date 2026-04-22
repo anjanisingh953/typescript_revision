@@ -1,8 +1,8 @@
 var record:any = 'Anil';
-data = 100;
-data = ['Abhishek'];
-data = true;
-data = {}
+record = 100;
+record = ['Abhishek'];
+record = true;
+record = {}
 
 //unknown example
 var  value1:unknown = "anil";
