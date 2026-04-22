@@ -41,4 +41,10 @@ let APICall2 = 'loading';
 APICall2 = 'loading';
 var randomData = 'Anystring';
 var userRoleOption = 'admin';
+//Now with the help of Record we can create object option
+var userRoleObj = {
+    admin: 'anjani',
+    user: 'deepak',
+    guest: 'milan'
+};
 //# sourceMappingURL=utility_type.js.map

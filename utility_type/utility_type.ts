@@ -68,8 +68,15 @@ type RandomType = string | boolean | number | undefined | null | string[]
 var randomData:NonNullable<RandomType> = 'Anystring' ;
 // var randomData:NonNullable<RandomType> = undefined ; //It will give Error 
 
-//Record convert the type options into object
+//Record convert the normal type into object option
 
 type userRole = 'admin' | 'user' | 'guest';
-
 var userRoleOption:userRole = 'admin'
+
+//Now with the help of Record we can create object option
+
+var userRoleObj:Record<userRole,string> = {
+    admin: 'anjani',
+    user: 'deepak',
+    guest: 'milan'
+}
