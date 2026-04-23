@@ -1,3 +1,4 @@
+
 // type personTypeA = {name:string};
 // type personTypeB = {age:number};
 // type personTypeC = personTypeA & personTypeB;
