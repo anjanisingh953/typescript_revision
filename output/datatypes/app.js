@@ -13,6 +13,8 @@ var numArray = [10, 20, 30, 40, 50, 60];
 console.log(numArray);
 // //tuple
 var person = ['Ankit', 60];
+//named tuple
+var person1 = ['Anjani', 25];
 //object
 var user = { fname: "Ankit", age: 25 };
 //any datatype
@@ -45,6 +47,13 @@ var Role;
     Role[Role["Guest"] = 2] = "Guest";
 })(Role || (Role = {}));
 let userRole = Role.Admin;
+//we should always use CAPITAL Letter for ENUM
+var chaiType;
+(function (chaiType) {
+    chaiType["MASALA"] = "masl";
+    chaiType["GINGER"] = "ginger";
+})(chaiType || (chaiType = {}));
+let chai = chaiType.MASALA;
 //literal type : restricts a value into a specific set
 let direction;
 direction = 'up'; //ok

@@ -18,6 +18,10 @@ console.log(numArray)
 // //tuple
 var person:[string,number] = ['Ankit',60];
 
+//named tuple
+var person1:[fname:string,age:number] = ['Anjani',25];
+
+
 //object
 var user:{fname:string, age:number} = {fname:"Ankit",age:25};
 
@@ -62,6 +66,15 @@ enum Role{
     Admin, User, Guest
 }
 let userRole:Role = Role.Admin;
+
+//we should always use CAPITAL Letter for ENUM
+enum chaiType{
+    MASALA='masl',
+    GINGER='ginger',
+}
+let chai:chaiType = chaiType.MASALA;
+
+
 
 //literal type : restricts a value into a specific set
 let direction: 'up' | 'down';
